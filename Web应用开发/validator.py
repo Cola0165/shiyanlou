@@ -22,7 +22,8 @@ class KeyValueValidator:
                 "key": {"type": "string"},
                 "value": {"type": "number"},
                 "condition": {"type": "number"},
-            }
+            },
+            "required": required
         }
 
         try:
